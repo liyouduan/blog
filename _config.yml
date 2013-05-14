@@ -1,7 +1,8 @@
 markdown: rdiscount
 permalink: /:year/:month/:day/:title
-url: http://liyouduan.github.io/blog
+url: http://liyouduan.github.io/
 author: liuduan
 pygments: true
 paginate: 16
 auto: true
+baseurl: /blog
