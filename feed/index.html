@@ -17,7 +17,7 @@
       <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
       <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
       <author>{{ site.author }}</author>
-      <guid>{{ site.url }}{{ post.id }}</guid>
+      <guid>{{ site.url }}{{ site.baseurl }}{{ post.id }}</guid>
       <content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
     </item>
     {% endfor %}
