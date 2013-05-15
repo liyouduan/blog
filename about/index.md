@@ -1,7 +1,6 @@
 ---
-title: About me
+title: 关于
 layout: page
-comments: yes
 ---
   
-about me.
+暂无
